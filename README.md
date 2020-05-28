@@ -1,5 +1,7 @@
 # The Caretaker Model
 
+<sup>Version 0.1 — June 2020</sup>
+
 [repository]: https://github.com/passcod/caretaker
 [caretaker]: https://caretaker.passcod.name
 [license]: https://creativecommons.org/licenses/by-sa/4.0/
@@ -9,7 +11,7 @@ which codifies a free software management model aimed at changing the expectatio
 on and from maintainers, contributors, helpers, issue reporters, and users, in the
 goal of redistributing burden and effort more fairly, for small to medium projects.
 
-To read more about this model, [read the website][caretaker].
+To learn more about this model, [read the website][caretaker].
 
 To discuss the model, use the issues on this [repository].
 
@@ -45,5 +47,3 @@ foundations, principles, nor organisations.
 There's just a dearth of _other_ words that convey the same base meaning (that of
 work in the open, for some definition of free, or with some definition of freedom)
 that aren't obscure or also already associated with such movements, principles, &c
-
-
