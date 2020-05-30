@@ -36,3 +36,7 @@ including the above, the license applies:
 with attribution to:
 
 Copyright © 2020 — Félix Saparelli
+
+--------------------------------------------------
+
+This repository includes Bootstrap's Reboot.css, under the MIT license.

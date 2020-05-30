@@ -1,4 +1,24 @@
 ---
 ---
 
+#splash {
+	height: 145px;
+
+	background-repeat: no-repeat;
+
+	{% assign range_range = site.range_range | sample: site.range_range.size %}
+	background-image:
+	{% for n in range_range %}
+	url(/assets/img/range-{{- n -}}.png),
+	{% endfor %}
+	;
+
+	{% assign range_max = site.range_range.size | minus: 1 %}
+	background-position:
+		{% for n in (0 .. range_max) %}
+		{{- n | times: 1080 -}}px 0,
+		{% endfor %}
+	;
+}
+
 @import 'style';
