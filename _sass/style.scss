@@ -86,7 +86,6 @@ h1.lost {
 #buckets {
 	display: grid;
 	padding: 0 0.5em;
-	grid-gap: 0.5em;
 
 	@media (min-width: 1200px) {
 		grid-template:
@@ -138,19 +137,28 @@ h1.lost {
 	}
 
 	.bucket {
+		--border: 1px solid rgba(255, 255, 255, 0.6);
+
 		font-size: 0.9em;
+		padding: 0 0.5em;
 		p { hyphens: auto; }
 
 		@media (min-width: 1200px) {
-			&, .either, .wait {
-				padding-right: 0.5em;
-				border-right: 1px solid rgba(255, 255, 255, 0.6);
-			}
+			&:last-child { border-right: none; }
+		}
 
-			&:last-child {
-				padding-right: 0;
-				border-right: none;
-			}
+		@media (min-width: 750px) and (max-width: 1199.99px) {
+			&.report, &.release { border-bottom: var(--border); }
+			&.release, &.use { border-right: none; }
+		}
+
+		@media (min-width: 500px) and (max-width: 749.99px) {
+			&.contrib, &.release, &.use { border-right: none; }
+			&.report, &.contrib, &.release { border-bottom: var(--border); }
+		}
+
+		@media (min-width: 500px) {
+			border-right: var(--border);
 		}
 
 		&.report { grid-area: report; }
@@ -192,6 +200,17 @@ h1.lost {
 
 			p.wait { grid-area: wait; }
 			p.act { grid-area: act; }
+
+			.either, .wait {
+				@media (min-width: 1200px) {
+					border-right: var(--border);
+					padding-right: 0.5em;
+				}
+
+				@media (min-width: 350px) and (max-width: 1199.99px) {
+					padding-right: 1em;
+				}
+			}
 		}
 	}
 }
