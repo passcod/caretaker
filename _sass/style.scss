@@ -68,11 +68,44 @@ h1.lost {
 	padding: 0 0.5em;
 	grid-gap: 0.5em;
 
-	grid-template:
-		 "h   h   h   h   h"  3em
-		 "b1  b2  b3  b4  b5" max-content
-		/ 1fr 1fr 2fr 1fr 1fr
-	;
+	@media (min-width: 1200px) {
+		grid-template:
+			 "h       h        h        h     h"   3em
+			 "report  contrib  release  care  use" max-content
+			/ 1fr     1fr      2fr      1fr   1fr
+		;
+	}
+
+	@media (min-width: 750px) and (max-width: 1199.99px) {
+		grid-template:
+			 "h        h        h"  3em
+			 "report   release  release" max-content
+			 "contrib  care     use"     max-content
+			/ 1fr      1fr      1fr
+		;
+	}
+
+	@media (min-width: 500px) and (max-width: 749.99px) {
+		grid-template:
+			 "h        h"  3em
+			 "report   contrib" max-content
+			 "release  release" max-content
+			 "care     use"     max-content
+			/ 1fr      1fr
+		;
+	}
+
+	@media (max-width: 499.99px) {
+		grid-template:
+			 "h"  3em
+			 "report"  max-content
+			 "contrib" max-content
+			 "release" max-content
+			 "care"    max-content
+			 "use"     max-content
+			/ 1fr
+		;
+	}
 
 	background: black;
 	color: white;
@@ -80,5 +113,47 @@ h1.lost {
 	h1 {
 		grid-area: h;
 		margin: 0;
+	}
+
+	.bucket.report { grid-area: report; }
+	.bucket.contrib { grid-area: contrib; }
+	.bucket.care { grid-area: care; }
+	.bucket.use { grid-area: use; }
+
+	.bucket.release {
+		grid-area: release;
+
+		display: grid;
+		grid-gap: 0.5em;
+
+		@media (min-width: 350px) {
+			grid-template:
+				 "head  head" max-content
+				 "either  or" max-content
+				 "wait   act" max-content
+				/ 1fr    1fr
+			;
+		}
+
+		@media (max-width: 349.99px) {
+			grid-template:
+				 "head"   max-content
+				 "either" max-content
+				 "wait"   max-content
+				 "or"     max-content
+				 "act"    max-content
+				/ 1fr
+			;
+		}
+
+		h2 {
+			grid-area: head;
+		}
+
+		h3.either { grid-area: either; }
+		h3.or { grid-area: or; }
+
+		p.wait { grid-area: wait; }
+		p.act { grid-area: act; }
 	}
 }
