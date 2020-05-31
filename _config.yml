@@ -5,10 +5,12 @@ title: The Caretaker Model (of open software project management)
 email: felix@passcod.name
 
 version: "0.1"
-description: >- # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+description: ""
+seo_description: >-
+    An open software management model aimed at changing the expectations on
+    and from maintainers, contributors, helpers, issue reporters, and users,
+    in the goal of redistributing burden and effort more fairly, for small
+    to medium projects.
 
 baseurl: ""
 url: "https://caretaker.passcod.name"
