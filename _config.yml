@@ -8,9 +8,8 @@ version: "0.1"
 description: ""
 seo_description: >-
     An open software management model aimed at changing the expectations on
-    and from maintainers, contributors, helpers, issue reporters, and users,
-    in the goal of redistributing burden and effort more fairly, for small
-    to medium projects.
+    and from developers, contributors, helpers, and users, in the goal of
+    redistributing burden and effort more fairly, for small to medium projects.
 
 baseurl: ""
 url: "https://caretaker.passcod.name"

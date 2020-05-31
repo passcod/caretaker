@@ -8,8 +8,8 @@
 
 This repository contains the source of the website https://caretaker.passcod.name,
 which codifies an open software management model aimed at changing the expectations
-on and from maintainers, contributors, helpers, issue reporters, and users, in the
-goal of redistributing burden and effort more fairly, for small to medium projects.
+on and from developers, contributors, helpers, and users, in the goal of
+redistributing burden and effort more fairly, for small to medium projects.
 
 To learn more about this model, [read the website][caretaker].
 
