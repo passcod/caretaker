@@ -125,15 +125,18 @@ h1.lost {
 
 	.bucket {
 		font-size: 0.9em;
+		p { hyphens: auto; }
 
-		&, .either, .wait {
-			padding-right: 0.5em;
-			border-right: 1px solid rgba(255, 255, 255, 0.6);
-		}
+		@media (min-width: 1200px) {
+			&, .either, .wait {
+				padding-right: 0.5em;
+				border-right: 1px solid rgba(255, 255, 255, 0.6);
+			}
 
-		&:last-child {
-			padding-right: 0;
-			border-right: none;
+			&:last-child {
+				padding-right: 0;
+				border-right: none;
+			}
 		}
 
 		&.report { grid-area: report; }
@@ -168,7 +171,7 @@ h1.lost {
 			}
 
 			h2 { grid-area: head; }
-			h3, p { margin-bottom: 0; }
+			h3 { margin-bottom: 0; }
 
 			h3.either { grid-area: either; }
 			h3.or { grid-area: or; }
