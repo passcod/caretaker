@@ -221,3 +221,17 @@ h1.lost {
 #eltit {
 	color: white;
 }
+
+main {
+	max-width: 100ch;
+	margin: 2em auto;
+
+	p { hyphens: auto; }
+
+	hr {
+		border: none;
+		height: 3em;
+		background: url(/assets/img/cairn.png) center no-repeat;
+		background-size: auto 100%;
+	}
+}
