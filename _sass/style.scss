@@ -3,6 +3,13 @@
 
 :root {
 	--primary: #498f43;
+	--background: #f4f2ee;
+	--splash-height: 145px;
+}
+
+html, body {
+	background: var(--background);
+	color: black;
 }
 
 a {
@@ -20,15 +27,58 @@ a {
 	position: absolute;
 }
 
+body.page {
+	margin-top: calc(var(--splash-height) / 2);
+
+	#splash {
+		transform: scaleY(0.5) rotateX(180deg) translateY(var(--splash-height));
+		transform-origin: bottom;
+		position: absolute;
+		width: 100%;
+		top: calc(0px - var(--splash-height) / 2);
+
+		.version { display: none; }
+	}
+}
+
+h1.lost {
+	font-size: 4em;
+	margin-top: 2em;
+
+	&, & ~ p {
+		text-align: center;
+	}
+}
+
 #splash {
 	text-align: right;
 	font-size: 0.6em;
 	padding: 0.5em;
-	background-blend-mode: screen;
-	background-color: var(--primary);
+	background-blend-mode: multiply;
+	background-color: var(--background);
 
 	.version {
-		color: white;
+		color: var(--background);
 		mix-blend-mode: difference;
+	}
+}
+
+#buckets {
+	display: grid;
+	padding: 0 0.5em;
+	grid-gap: 0.5em;
+
+	grid-template:
+		 "h   h   h   h   h"  3em
+		 "b1  b2  b3  b4  b5" max-content
+		/ 1fr 1fr 2fr 1fr 1fr
+	;
+
+	background: black;
+	color: white;
+
+	h1 {
+		grid-area: h;
+		margin: 0;
 	}
 }

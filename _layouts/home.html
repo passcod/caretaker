@@ -3,14 +3,17 @@
 
 {%- include head.html -%}
 
-<body class="page">
+<body class="home">
+	{%- assign default_paths = site.pages | map: "path" -%}
+	{%- assign page_paths = site.header_pages | default: default_paths -%}
+
 	{%- include splash.html -%}
-	{%- include nav.html -%}
+	{%- include buckets.html -%}
 
 	<main aria-label="Content">
-		{{ content }}
 	</main>
 
+	{%- include nav.html -%}
 	{%- include credits.html -%}
 </body>
 
