@@ -5,7 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 :root {
-	--primary: #498f43;
+	--a-recto: black;
+	--a-verso: white;
+
 	--background: #f4f2ee;
 	--splash-height: 145px;
 
@@ -21,7 +23,17 @@ html, body {
 }
 
 a {
-	color: var(--primary);
+	color: var(--a-recto);
+	border-bottom: 0.2em solid;
+	font-weight: 500;
+	text-decoration: none;
+
+	&:hover {
+		color: var(--a-verso);
+		background: var(--a-recto);
+		border-bottom-color: var(--a-recto);
+		text-decoration: none;
+	}
 }
 
 .sr-only {
@@ -117,6 +129,8 @@ h1.lost {
 
 	background: black;
 	color: white;
+	--a-recto: white;
+	--a-verso: black;
 
 	h1 {
 		grid-area: h;
