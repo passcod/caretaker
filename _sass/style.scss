@@ -226,7 +226,26 @@ h1.lost {
 	font-family: var(--font-caps);
 	font-weight: 700;
 	padding: 0 0.35em;
-	font-size: 3em;
+
+	@media (min-width: 1200px) {
+		font-size: 3em;
+	}
+
+	@media (min-width: 750px) and (max-width: 1199.99px) {
+		font-size: 2.7em;
+	}
+
+	@media (min-width: 500px) and (max-width: 749.99px) {
+		font-size: 2.4em;
+	}
+
+	@media (min-width: 350px) and (max-width: 499.99px) {
+		font-size: 2em;
+	}
+
+	@media (max-width: 349.99px) {
+		font-size: 1.7em;
+	}
 }
 
 #eltit, #eltit + #title {
