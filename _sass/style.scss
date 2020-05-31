@@ -196,9 +196,28 @@ h1.lost {
 	}
 }
 
-#title {
+#title a, #title a:hover {
+	color: inherit;
+	background: none;
+	border: none;
+}
+
+#title, #eltit {
 	border-bottom: 0.3em solid black;
 	font-family: var(--font-caps);
+	font-weight: 700;
 	padding: 0 0.35em;
 	font-size: 3em;
+}
+
+#eltit, #eltit + #title {
+	position: absolute;
+	width: 100%;
+	mix-blend-mode: difference;
+	height: calc(var(--splash-height) / 2);
+	top: 0;
+}
+
+#eltit {
+	color: white;
 }
