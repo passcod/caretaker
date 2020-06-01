@@ -18,7 +18,8 @@ upon it via a google search, more and more people find and use it. And eventuall
 
 Contribution.
 
-That comes in many forms. I want to distinguish three families: reporting, helping, and submitting.
+That comes in many forms. I want to distinguish four families: reporting, helping, submitting,
+and supporting.
 
 - **Reporting** is filing bugs. Asking questions. Requesting features. Giving feedback. It is
 	conceptually one step above _using_ the work, though in practical terms one may be asking
@@ -36,6 +37,11 @@ That comes in many forms. I want to distinguish three families: reporting, helpi
 	pull-request fixing a bug, implementing a feature, improving the software. But it may also touch
 	a wide variety of other aspects: writing documentation, making art, proposing new designs and
 	arguing for, against, or alongside existing ones. Reviewing other submissions.
+
+- **Supporting** is indirect contribution, not directly to the project, but to the people behind the
+	project. Monetary contributions to maintainers, employers letting staff work on open-source,
+	partners taking care of children and housework while one's working, family, friends, and close
+	colleagues providing companionship, wisdom, and safety.
 
 In small to medium open software projects, the traditional way work is organised is stratified
 between three main roles: Maintainers or Owners, Contributors, and Everyone Else.
