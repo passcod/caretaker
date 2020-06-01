@@ -32,7 +32,7 @@ and supporting.
 	each of triage, answering questions, organising work, and administering the project… can be a
 	full-time occupation.
 
-- **Submitting** is generally what is meant by “contributing.” However, I argue that all three forms
+- **Submitting** is generally what is meant by “contributing.” However, I argue that all four forms
 	described are _work_, and therefore all are contributions. Submitting often involves code: a
 	pull-request fixing a bug, implementing a feature, improving the software. But it may also touch
 	a wide variety of other aspects: writing documentation, making art, proposing new designs and
