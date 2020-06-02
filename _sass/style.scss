@@ -261,9 +261,52 @@ h1.lost {
 }
 
 main {
-	max-width: 100ch;
-	margin: 2em auto;
-	padding: 0 1em;
+	margin: 2em 0;
+
+	display: grid;
+	grid-gap: 2em;
+
+	@media (min-width: 1350px) {
+		grid-template:
+			"toc content blank" max-content
+			/ 1fr minmax(auto, 100ch) 1fr;
+	}
+
+	@media (min-width: 1000px) and (max-width: 1349.99px) {
+		grid-template:
+			"toc content blank" max-content
+			/ 1fr 3fr 1fr;
+	}
+
+	@media (min-width: 750px) and (max-width: 999.99px) {
+		grid-template:
+			"toc content" max-content
+			/ 1fr 3fr;
+	}
+
+	@media (max-width: 749.99px) {
+		grid-template:
+			"toc"     max-content
+			"content" max-content
+			/ 1fr;
+	}
+
+	#toc {
+		color: var(--a-recto);
+
+		@media (min-width: 750px) {
+			--a-recto: rgba(0, 0, 0, 0.4);
+			&:hover { --a-recto: black; }
+		}
+
+		@media (max-width: 749.99px) {
+			--a-recto: rgba(0, 0, 0, 0.7);
+		}
+	}
+
+	#content {
+		padding: 0 1em;
+	}
 
 	p { hyphens: auto; }
 

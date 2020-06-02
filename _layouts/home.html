@@ -12,7 +12,21 @@
 
 	<h1 id="title">The Caretaker Model</h1>
 	<main aria-label="Content">
-		{{ content }}
+		<nav id="toc">
+			<ol>
+				<li>
+					<a href="#background">Background</a>
+					<p>The state of open software project management and its issues</p>
+				</li>
+				<li>
+					<a href="#introduction">Introduction</a>
+					<p>The core mechanics of the Caretaker model</p>
+				</li>
+			</ol>
+		</nav>
+		<div id="content">
+			{{ content }}
+		</div>
 	</main>
 
 	{%- include nav.html -%}
