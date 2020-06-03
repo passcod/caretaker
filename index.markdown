@@ -182,7 +182,7 @@ To avoid any confusion (not an exhaustive list):
 From the onset, the Caretaker model positions itself as being for "small to medium" projects.
 
 There is no defined upper bound on "how large" a project can be before it stops being appropriate to
-use the model: besides the difficulty of measuring "largeness" of a project in specific terms, the
+use the model: besides the difficulty of measuring "largeness" of a project in discrete terms, the
 decision to leave Caretaker behind or adapt it for large-scale use must be made by the project
 itself, for its own well-being, and to achieve its own goals.
 
