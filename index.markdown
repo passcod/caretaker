@@ -114,9 +114,9 @@ In Caretaker, **release work is done by release managers**.
 A **release manager** is a _transient_ role, which only exists for the purpose and for the duration
 of preparing, making, and publishing _one_ release.
 
-The role of release manager can be assumed freely by a permanent member of the project, or can be
+The role of release manager can be assumed freely by a “permanent” member of the project, or can be
 assigned, after request, and for a single release, to an external contributor, who then becomes a
-**temporary release manager**.
+_temporary_ **release manager**.
 
 The release manager then _owns_ the release process, and drives it to completion. The project may
 define a particular process, but in general this may involve:
@@ -135,7 +135,7 @@ Once all that work is done, and the release is out in the world, the release man
 and the project returns to a dormant or idle state, awaiting the next release manager to step up,
 if and when needed.
 
-The permanent members of the project mentioned above are **Caretakers**.
+The “permanent” members of the project mentioned above are **caretakers**.
 
 Caretaking responsibilities are:
 
