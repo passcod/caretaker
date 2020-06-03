@@ -206,9 +206,9 @@ Beyond size, there are other reasons why the model may be unsuitable for a proje
 There may be other reasons not stated here: the model makes no claim of universality. Use it if, and
 only as long as, it fits.
 
-One important note: this section only applies to _projects_ deciding on whether to adopt the model
-as their own, or to keep using it. Contributors, or even individual caretakers if in a larger team,
-_cannot_ decide _not_ to follow the model if the project they're contributing to uses it (unless the
-project makes that a possibility): you must follow the rules of the project, and if the project uses
-this model, then its rules apply. No (unsanctioned) wiggling out.
+**One important note**: this section only applies to _projects_ deciding on whether to adopt the
+model as their own, or to keep using it. Contributors, or even individual caretakers if in a larger
+team, _cannot_ decide to ignore the model if the project they're contributing to uses it: unless
+you're in a position to make or change them, you must follow the rules of the project, and if the
+project uses this model, then the model's rules apply. No (unsanctioned) wiggling out.
 
