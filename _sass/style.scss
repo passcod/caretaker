@@ -14,6 +14,8 @@
 	--font-native: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--font-main: "Alegreya Sans", var(--font-native);
 	--font-caps: "Alegreya Sans SC", var(--font-native);
+
+	--todo-dark-mode-range: #181920;
 }
 
 html, body {
@@ -292,15 +294,13 @@ main {
 	}
 
 	#toc {
-		color: var(--a-recto);
-
 		@media (min-width: 750px) {
-			--a-recto: rgba(0, 0, 0, 0.4);
-			&:hover { --a-recto: black; }
+			opacity: 0.43;
+			&:hover { opacity: 1; }
 		}
 
 		@media (max-width: 749.99px) {
-			--a-recto: rgba(0, 0, 0, 0.7);
+			opacity: 0.7;
 		}
 	}
 

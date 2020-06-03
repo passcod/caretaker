@@ -159,3 +159,56 @@ what the caretaking request process is, discussions about audience (who should _
 scope (what the model _doesn't_ cover), normal and failure scenarios, and automation.
 
 --------------------------------------------------
+
+
+## Scope
+
+The Caretaker model's scope only extends to codifying two new roles in the management of an open
+software project, and the processes these two roles support and require. It is intentionally limited
+thus, to allow for the wide variety of project strategies and cultures that exist to use the model
+without compromising on their existing practices beyond what is needed for the model to work.
+
+To avoid any confusion (not an exhaustive list):
+
+- It is not an all-encompassing management and development methodology like Agile or Shape Up.
+- It is not about issue management or triage.
+- It is not about community management: it certainly does not replace the need for codes of conduct.
+- It is not about funding, remuneration, or the pursuit of sustainability in a financial regard.
+- It does not concern itself with copyright, licensing, patents, or other such legal concerns.
+
+
+## Audience
+
+From the onset, the Caretaker model positions itself as being for "small to medium" projects.
+
+There is no defined upper bound on "how large" a project can be before it stops being appropriate to
+use the model: besides the difficulty of measuring "largeness" of a project in specific terms, the
+decision to leave Caretaker behind or adapt it for large-scale use must be made by the project
+itself, for its own well-being, and to achieve its own goals.
+
+There is however a lower bound, which is "one": a project _must_ have at least _one_ **caretaker**
+who responds to requests for the model to work. If the project is abandoned, or if none of the
+established caretakers respond to and act on requests (within reasonable time), then the model by
+definition cannot work.
+
+Beyond size, there are other reasons why the model may be unsuitable for a project:
+
+- If a large degree of control over the project, its direction, implementation, copyright and legal
+	status, or some such... is required. Caretaker requires trusting potentially any random stranger
+	to _release live software to the world_. If that is antithetical to your project or philosophies
+	there's no adaptation that will make it work: do no use it.
+
+- If the project is security-critical, or used by a large amount of people, devices, companies...
+	then, for the same reasons of trust, the model is inappropriate and should not be used.
+
+- If the project is backed by or directly developed by a company, the model is likely untenable.
+
+There may be other reasons not stated here: the model makes no claim of universality. Use it if, and
+only as long as, it fits.
+
+One important note: this section only applies to _projects_ deciding on whether to adopt the model
+as their own, or to keep using it. Contributors, or even individual caretakers if in a larger team,
+_cannot_ decide _not_ to follow the model if the project they're contributing to uses it (unless the
+project makes that a possibility): you must follow the rules of the project, and if the project uses
+this model, then its rules apply. No (unsanctioned) wiggling out.
+
