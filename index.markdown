@@ -156,7 +156,7 @@ can achieve them.
 
 The rest of this document delves deeper into how exactly the temporary release manager process goes,
 what the caretaking request process is, discussions about audience (who should _not_ use the model),
-scope (what the model _doesn't_ cover), normal and failure scenarios, and automation.
+scope (what the model _doesn't_ cover), scaling up, normal and failure scenarios, and automation.
 
 --------------------------------------------------
 
