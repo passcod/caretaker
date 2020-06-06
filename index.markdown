@@ -137,17 +137,18 @@ needed.
 
 The “more permanent” members who can assign releasership mentioned above are **caretakers**.
 
-Caretaking responsibilities are:
+Caretaking responsibilities are to:
 
-- Guiding the project
-- Arbitrating (disputes, decisions, etc)
-- Answering and processing release proposals and caretaking requests
+- Provide feedback on release proposals as needed.
+- Approve or deny these proposals when ready, and assign release rights in consequence.
+- Keep an eye on temporary releasers while they have those rights, and intervene if needed.
 
 That’s it.
 
 Of course, people who are caretakers may also do many other things, or indeed all other things.
-Coding, documenting, fixing bugs, answering queries, triage, promotion, making art, investigating
-bugs, thinking about design… being a caretaker is a _role_, not an identity.
+Coding, documenting, fixing bugs, answering queries, arbitrating disputes, making decisions, triage,
+promotion, making art, investigating bugs, thinking about design… being a caretaker is a _role_,
+not an identity.
 
 But the _core, mandatory responsibilities_ of the caretaker role are those three things, and only
 those. As long as a caretaker fulfills those three duties, the project can survive, develop, evolve,
@@ -223,6 +224,8 @@ At the core of the Caretaker model is the eponymous **caretaker** _role_.
 
 ### Requirements
 
+// FIXME: overhaul according to changes above
+
 A project member who is a caretaker is one who:
 
 1. Has agreed to be a caretaker.
@@ -251,10 +254,11 @@ A project member who is a caretaker is one who:
 
 4. Has the time and ability to answer and act on release proposals within reasonable time.
 
-	Projects may define what "reasonable time" looks like for them; by default this is set to two
-	weeks. This is the time to an acknowledgement of a release proposal, and between answers: it is
-	not expected that all release proposals be approved or denied within two weeks of first being
-	made, though that's a nice target to aim for.
+	Projects may define what "reasonable time" looks like for them; see the
+	[release proposal](#release-proposals) section for more details and defaults. This is the time
+	to an acknowledgement of a release proposal, and between answers: it is not expected that all
+	release proposals be approved or denied within two weeks of first being made, though that's a
+	nice target to aim for.
 
 	In projects with multiple caretakers, timings are a little more fuzzy, see below.
 
