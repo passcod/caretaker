@@ -176,6 +176,7 @@ To avoid any confusion (not an exhaustive list):
 - It is not about community management: it certainly does not replace the need for codes of conduct.
 - It is not about funding, remuneration, or the pursuit of sustainability in a financial regard.
 - It does not concern itself with copyright, licensing, patents, or other such legal concerns.
+- It is not itself a tool or product.
 
 
 ## Audience
