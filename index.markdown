@@ -271,4 +271,5 @@ guide (the template will point people there as a first step).
 [walkthrough]: #walkthrough
 [automation]: #automation
 [failure and recovery]: #failure-and-recovery
+[scaling up]: #scaling-up
 [meta]: #meta
