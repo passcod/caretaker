@@ -115,7 +115,7 @@ A **releaser** is a _transient_ role, which only exists for the purpose and for 
 preparing, making, and publishing _one_ release.
 
 The role of releaser can be assumed freely by a “more permanent” member of the project, or can be
-assigned, after request, and for a single release, to an external contributor, who then becomes a
+assigned, after a proposal, and for a single release, to an external contributor, who then becomes a
 **_temporary_ releaser**.
 
 The releaser then _owns_ the release process, and drives it to completion. The project will define a
@@ -141,7 +141,7 @@ Caretaking responsibilities are:
 
 - Guiding the project
 - Arbitrating (disputes, decisions, etc)
-- Answering and processing release and caretaking requests
+- Answering and processing release proposals and caretaking requests
 
 That’s it.
 
@@ -154,10 +154,10 @@ those. As long as a caretaker fulfills those three duties, the project can survi
 grow. Thus, a caretaker's mandatory duties are kept light, such that even someone who has very
 little time can achieve them.
 
-The rest of this document delves deeper into how exactly the releaser assignment process goes, the
-duties and expectations placed upon both caretakers and releasers, how to become a caretaker,
-discussions about audience (who should _not_ use the model), scope (what the model _doesn't_ cover),
-scaling up, normal and failure scenarios, and automation.
+The rest of this document delves deeper into how release proposals work, the lifecycle of a release
+from the perspective of the model, the duties and expectations placed upon both caretakers and
+releasers, how to become a caretaker, discussions about audience (who should _not_ use the model),
+scope (what the model _doesn't_ cover), scaling up, normal and failure scenarios, and automation.
 
 --------------------------------------------------
 
