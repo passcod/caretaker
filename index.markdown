@@ -175,9 +175,9 @@ without compromising on their existing practices beyond what is needed for the m
 
 To avoid any confusion (not an exhaustive list):
 
-- It is not an all-encompassing management and development methodology like Agile or Shape Up.
+- It is not an all-encompassing developer management methodology like Agile or Shape Up.
 - It is not about issue management or triage.
-- It is not about community management: it certainly does not replace the need for codes of conduct.
+- It is not about community management; it certainly does not replace the need for codes of conduct.
 - It is not about funding, remuneration, or the pursuit of sustainability in a financial regard.
 - It does not concern itself with copyright, licensing, patents, or other such legal concerns.
 - It is not itself a tool or product.
@@ -205,9 +205,9 @@ definition cannot work.
 Beyond size, there are other reasons why the model may be unsuitable for a project:
 
 - If a large degree of control over the project, its direction, implementation, copyright and legal
-	status, or some such... is required. Caretaker requires trusting potentially any random stranger
-	to _release live software to the world_. If that is antithetical to your project or philosophies
-	there's no adaptation that will make it work: do no use it.
+	status, or some other such is required. Caretaker requires trusting potentially any random
+	stranger to _release live software to the world_. If that is antithetical to your project or
+	philosophies there's no adaptation that will make it work: do no use it.
 
 - If the project is security-critical, or used by a large amount of people, devices, companies...
 	then, for the same reasons of trust, the model is inappropriate and should not be used.
@@ -225,7 +225,7 @@ At the core of the Caretaker model is the eponymous **caretaker** _role_.
 
 The role's sole responsibility is to facilitate the model's release process. In practice, caretakers
 will likely also be maintainers, leaders, triagers, or any of the various other roles that projects
-have, but critically, they don't _have_ to for the project to function.
+have, but critically, _they don't have to_ for the project to function.
 
 The point of the Caretaker model is to enable a way for the project to function when maintainers are
 mostly away. There is little need for external contributors to go through a release proposal and the
@@ -255,7 +255,7 @@ It's important that people _consent_ to becoming caretakers, though, and it _sho
 compulsory step in becoming a titled contributor or maintainer. Besides that this scales poorly,
 the requirements of being a caretakers may be taxing for some people, or in some situations. This
 is open software and open development: most likely, you're all doing this for free. Let roles be
-voluntary, especially something like this role.
+voluntary, especially something this one.
 
 Detail on the actual duties of the role are in the [release proposals] and [release lifecycle]
 sections, alongside the corresponding responsibilities by releasers.
