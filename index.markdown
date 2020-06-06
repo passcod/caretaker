@@ -109,17 +109,17 @@ Internally to the project, there is a lot of work left beyond contributions to g
 state. Tidying up, checking work, updating documentation, packaging, recording changes, and more.
 As seen above, in the traditional way this work is mostly done by maintainers.
 
-In Caretaker, **release work is done by release managers**.
+In Caretaker, **release work is done by “releasers”**.
 
-A **release manager** is a _transient_ role, which only exists for the purpose and for the duration
-of preparing, making, and publishing _one_ release.
+A **releaser** is a _transient_ role, which only exists for the purpose and for the duration of
+preparing, making, and publishing _one_ release.
 
-The role of release manager can be assumed freely by a “permanent” member of the project, or can be
+The role of releaser can be assumed freely by a “more permanent” member of the project, or can be
 assigned, after request, and for a single release, to an external contributor, who then becomes a
-_temporary_ **release manager**.
+**_temporary_ releaser**.
 
-The release manager then _owns_ the release process, and drives it to completion. The project may
-define a particular process, but in general this may involve:
+The releaser then _owns_ the release process, and drives it to completion. The project will define a
+particular process and have its requirements, but in general this may involve any, all, or more of:
 
 - Picking which features or fixes go in the release
 - Reviewing and merging submissions to that effect
@@ -131,11 +131,11 @@ define a particular process, but in general this may involve:
 - Recording and editing the changelog
 - Publishing and announcing the release
 
-Once all that work is done, and the release is out in the world, the release manager's role is over,
-and the project returns to a dormant or idle state, awaiting the next release manager to step up,
-if and when needed.
+Once all that work is done, and the release is out in the world, the releaser's role is over, and
+the project returns to a dormant or idle state, awaiting the next releaser to step up, if and when
+needed.
 
-The “permanent” members of the project mentioned above are **caretakers**.
+The “more permanent” members who can assign releasership mentioned above are **caretakers**.
 
 Caretaking responsibilities are:
 
@@ -145,18 +145,19 @@ Caretaking responsibilities are:
 
 That’s it.
 
-Of course, people who are Caretakers may also do many other things, or indeed all other things.
+Of course, people who are caretakers may also do many other things, or indeed all other things.
 Coding, documenting, fixing bugs, answering queries, triage, promotion, making art, investigating
-bugs, thinking about design, making releases, all that.
+bugs, thinking about design… being a caretaker is a _role_, not an identity.
 
-But the _core, mandatory responsibilities_ of a Caretaker are those three things, and only those.
-As long as a Caretaker fulfills those three duties, the project can survive, develop, evolve, grow.
-Thus, a Caretaker's mandatory duties are kept light, such that even someone who has very little time
-can achieve them.
+But the _core, mandatory responsibilities_ of the caretaker role are those three things, and only
+those. As long as a caretaker fulfills those three duties, the project can survive, develop, evolve,
+grow. Thus, a caretaker's mandatory duties are kept light, such that even someone who has very
+little time can achieve them.
 
-The rest of this document delves deeper into how exactly the temporary release manager process goes,
-what the caretaking request process is, discussions about audience (who should _not_ use the model),
-scope (what the model _doesn't_ cover), scaling up, normal and failure scenarios, and automation.
+The rest of this document delves deeper into how exactly the releaser assignment process goes, the
+duties and expectations placed upon both caretakers and releasers, how to become a caretaker,
+discussions about audience (who should _not_ use the model), scope (what the model _doesn't_ cover),
+scaling up, normal and failure scenarios, and automation.
 
 --------------------------------------------------
 
@@ -294,3 +295,5 @@ With multiple caretakers, several behaviours may emerge:
 	the usual delay, but may respond if no other caretaker has answered in that time. These
 	fallback caretakers would have an even lighter workload, but would keep the project going even
 	in the planned or unplanned absence of all other caretakers.
+
+### Becoming one
