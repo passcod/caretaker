@@ -179,6 +179,9 @@ To avoid any confusion (not an exhaustive list):
 - It does not concern itself with copyright, licensing, patents, or other such legal concerns.
 - It is not itself a tool or product.
 
+Additionally, anything written in this document can be overriden, added on to, or discarded by a
+project's own rules. (If sufficient differences occur, it is encouraged that the project instead
+codifies their own model and doesn't use the “Caretaker” name, to avoid confusion.)
 
 ## Audience
 
@@ -209,96 +212,51 @@ Beyond size, there are other reasons why the model may be unsuitable for a proje
 There may be other reasons not stated here: the model makes no claim of universality. Use it if, and
 only as long as, it fits.
 
-**One important note**: this section only applies to _projects_ deciding on whether to adopt the
-model as their own, or to keep using it. Contributors, or even individual caretakers if in a larger
-team, _cannot_ decide to ignore the model if the project they're contributing to uses it: unless
-you're in a position to make or change them, you must follow the rules of the project, and if the
-project uses this model, then the model's rules apply. No (unsanctioned) wiggling out.
-
 
 ## The caretaker role
 
 At the core of the Caretaker model is the eponymous **caretaker** _role_.
 
-### Duties
+The role's sole responsibility is to facilitate the model's release process. In practice, caretakers
+will likely also be maintainers, leaders, triagers, or any of the various other roles that projects
+have, but critically, they don't _have_ to for the project to function.
 
-### Requirements
+The point of the Caretaker model is to enable a way for the project to function when maintainers are
+mostly away. There is little need for external contributors to go through a release proposal and the
+entire process when the project's maintainer or team is active enough to pick up features and cut
+releases on their own. But when they're busy elsewhere, be that on other projects, life, or hard at
+work on tougher features such that they let the release-making fall by the wayside, the Caretaker
+model offers a low-cost (to them) way for the project to keep evolving.
 
-// FIXME: overhaul according to changes above
+Additionally, if a user wants a feature _right now_ or a fix to be backported to an old version but
+the team doesn't have the time for that, the model allows for the user to get involved directly to
+achieve their goal.
 
-A project member who is a caretaker is one who:
+A caretaker acts as a guide for prospective releasers submitting a proposal, a gatekeeper in only
+allowing proposals that correspond to the project's goals, as well as keeping out known bad actors,
+and an observer-slash-monitor for activity by releasers to catch and mitigate malicious activity.
 
-1. Has agreed to be a caretaker.
+A caretaker still needs to be available to answer queries and proposals within reasonable time, as
+defined either by the project or by the default timings in the [release proposals] section. This is
+to maintain clear expectations and thus reduce everyone's frustration.
 
-	Consent is essential. The role of caretaker cannot be heaped upon an existing maintainer or
-	developer without their assent. While being a caretaker _should_ be a longer term thing, there
-	is no requirement for all long-term members of a project to be caretakers, and there is no
-	requirement for caretakers to have been members prior, though that will usually help.
+The caretaker role is a good choice when looking for backup or additional maintainers: instead of
+taking on a large role upfront, people can take on the much smaller role of being a caretaker, and
+ease into other roles, while still always providing the assurance of someone else being there for
+the project in case you turn away from active duty on the project for whatever reason.
 
-2. Understands the project's vision and direction, and is capable of guiding the project there.
+It's important that people _consent_ to becoming caretakers, though, and it _should not_ be made a
+compulsory step in becoming a titled contributor or maintainer. Besides that this scales poorly,
+the requirements of being a caretakers may be taxing for some people, or in some situations. This
+is open software and open development: most likely, you're all doing this for free. Let roles be
+voluntary, especially something like this role.
 
-	As caretaker, a member has decision-making power to accept or reject proposals for the
-	advancement of the project in a very practical way. There are two components to this
-	requirement: one is about understanding, and that can be through culture or documents or
-	discussions with others, or (often in the case of small projects) one's own desires; the other
-	is about having the confidence to correct divergent proposals or reject them out of hand.
+Detail on the actual duties of the role are in the [release proposals] and [release lifecycle]
+sections, alongside the corresponding responsibilities by releasers.
 
-	However, care should be taken when reviewing past decisions not to interpret "always approving
-	changes" as not following this requirement: not only is it entirely possible for all proposals
-	submitted to be going in the right direction, but such a statistic could indicate the project's
-	goals and anti-goals aren't defined enough.
+Becoming a caretaker is a process left to the discretion of the project. A [template](/caretaker-request)
+for prospective caretakers is provided on this site, and if that works for the project no further
+action is required beyond considering these requests. Otherwise, add a section to your contributing
+guide (the template will point people there as a first step).
 
-3. Can release, commit, and is able to grant and revoke the rights to release and commit.
-
-	This is a base mechanic of the model.
-
-4. Has the time and ability to answer and act on release proposals within reasonable time.
-
-	Projects may define what "reasonable time" looks like for them; see the
-	[release proposal](#release-proposals) section for more details and defaults. This is the time
-	to an acknowledgement of a release proposal, and between answers: it is not expected that all
-	release proposals be approved or denied within two weeks of first being made, though that's a
-	nice target to aim for.
-
-	In projects with multiple caretakers, timings are a little more fuzzy, see below.
-
-	If a caretaker expects to be absent or away or otherwise unavailable, they should communicate or
-	indicate this, and if they are alone, they should endeavour to find another caretaker such that
-	the project always has someone available to fulfil caretaker duties.
-
-5. Follows any other guidelines and requirements set by the project.
-
-### Multiple caretakers
-
-With multiple caretakers, several behaviours may emerge:
-
-- Races.
-
-	If two (or more) caretakers respond at the same time, either one should yield (the _last_ poster
-	in thread order speaks _first_ in this case, to avoid both yielding to each other), or they
-	should have a discussion off-thread and update the thread once a resolution is reached.
-
-	If two or more caretakers respond with diverging opinions, they should discuss in-thread, so the
-	decision becomes recorded precedent. If this happens often, some strategy should be adopted to
-	avoid it, as it introduces friction; that is left to the discretion of the project.
-
-	In any case, once a race is resolved, the caretaker handling the proposal is assigned to that
-	proposal, and follows it through. They can request feedback or second opinions or more eyes, as
-	in usual project dynamics, but they are responsible for that proposal until resolved. They _may_
-	request for it to be taken over, in which case they relinquish it: thus there is only one
-	caretaker handling a proposal at any one time.
-
-- Hierarchies.
-
-	This is highly dependent on how the project structures itself, and this model makes no
-	recommendations on this topic, besides an encouragement to make communication of the hierarchy
-	explicit, to avoid uncertainty and frustration.
-
-- Fallbacks.
-
-	It can be useful to designate some caretakers as fallbacks: these should _not_ respond within
-	the usual delay, but may respond if no other caretaker has answered in that time. These
-	fallback caretakers would have an even lighter workload, but would keep the project going even
-	in the planned or unplanned absence of all other caretakers.
-
-### Becoming one
+[release proposals]: #release-proposals
