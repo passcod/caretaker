@@ -3,6 +3,7 @@ layout: home
 ---
 
 ## Background
+[background]: #background
 
 An open software project — that is, a software project conducted in the open, without attaching it
 to either of the two dominant ideologies, “free software” and “open source” — might be started for
@@ -91,6 +92,7 @@ contributors and users.
 
 
 ## Introduction
+[introduction]: #introduction
 
 The model is built around the concept of _releases_.
 
@@ -164,6 +166,7 @@ scope (what the model _doesn't_ cover), scaling up, normal and failure scenarios
 
 
 ## Scope
+[scope]: #scope
 
 The Caretaker model's scope only extends to codifying two new roles in the management of an open
 software project, and the processes these two roles support and require. It is intentionally limited
@@ -181,9 +184,11 @@ To avoid any confusion (not an exhaustive list):
 
 Additionally, anything written in this document can be overriden, added on to, or discarded by a
 project's own rules. (If sufficient differences occur, it is encouraged that the project instead
-codifies their own model and doesn't use the “Caretaker” name, to avoid confusion.)
+codifies their own model and doesn't use the “Caretaker” name, to avoid confusion. See also the
+[meta] section.)
 
 ## Audience
+[audience]: #audience
 
 From the onset, the Caretaker model positions itself as being for "small to medium" projects.
 
@@ -214,6 +219,7 @@ only as long as, it fits.
 
 
 ## The caretaker role
+[caretaker role]: #the-caretaker-role
 
 At the core of the Caretaker model is the eponymous **caretaker** _role_.
 
@@ -259,4 +265,10 @@ for prospective caretakers is provided on this site, and if that works for the p
 action is required beyond considering these requests. Otherwise, add a section to your contributing
 guide (the template will point people there as a first step).
 
+[releaser role]: #releaser-role
 [release proposals]: #release-proposals
+[release lifecycle]: #release-lifecycle
+[walkthrough]: #walkthrough
+[automation]: #automation
+[failure and recovery]: #failure-and-recovery
+[meta]: #meta
