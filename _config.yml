@@ -7,9 +7,9 @@ email: felix@passcod.name
 version: "0.1"
 description: ""
 seo_description: >-
-    An open software management model aimed at changing the expectations on
-    and from developers, contributors, helpers, and users, in the goal of
-    redistributing burden and effort more fairly, for small to medium projects.
+    A open software contribution model that redistributes work more fairly,
+    operates at higher trust, and allows projects to survive and grow even
+    if a creator or team is away, with very little effort required on their part.
 
 baseurl: ""
 url: "https://caretaker.passcod.name"
