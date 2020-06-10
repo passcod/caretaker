@@ -145,6 +145,7 @@ h1.lost {
 		font-size: 0.9em;
 		padding: 0 0.5em;
 		p { hyphens: auto; }
+		b, strong { hyphens: none; }
 
 		@media (min-width: 1200px) {
 			&:last-child { border-right: none; }
