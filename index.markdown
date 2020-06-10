@@ -267,13 +267,14 @@ action is required beyond considering these requests. Otherwise, add a section t
 guide (the website's action header as well as the template itself do instruct people to look there
 as a first step).
 
+
 ## The releaser role
 [releaser role]: #the-releaser-role
 
 While the caretaker role is the core of the model, **releasers** do the bulk of the work (in regard
 to what the model deals with).
 
-Releasers... _release_.
+Releasers... _release_. But before they get to the releasing, they also have to become a releaser.
 
 The **releaser _role_** is special in that it is _transient_: it only exists for the purpose of
 releasing a single release. When that one release is done, the role dismisses itself.
@@ -310,7 +311,10 @@ They're given all the rights necessary for them to achieve that. When they're do
 those rights and walk away.
 
 
+## Release proposals
 [release proposal]: #release-proposals
+
+
 [release lifecycle]: #release-lifecycle
 [walkthrough]: #walkthrough
 [automation]: #automation
