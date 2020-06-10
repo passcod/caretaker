@@ -267,8 +267,50 @@ action is required beyond considering these requests. Otherwise, add a section t
 guide (the website's action header as well as the template itself do instruct people to look there
 as a first step).
 
-[releaser role]: #releaser-role
-[release proposals]: #release-proposals
+## The releaser role
+[releaser role]: #the-releaser-role
+
+While the caretaker role is the core of the model, **releasers** do the bulk of the work (in regard
+to what the model deals with).
+
+Releasers... _release_.
+
+The **releaser _role_** is special in that it is _transient_: it only exists for the purpose of
+releasing a single release. When that one release is done, the role dismisses itself.
+
+The other way in which it is special is _who_ can wear the role. Most roles get assigned to or taken
+by members of the project. The releaser role can be like that, but it also can be obtained by a
+non-member, someone just passing through, an "external contributor," via a formal process.
+
+The project temporarily gains a _transient_ member, there to do one thing and one thing only, until
+that one thing is done, at which time they automatically leave the project again. Even while they're
+acting a releaser, they're not responsible for, not expected to do, and indeed expected _not to do_
+any other task or role covered by the rest of the project's members.
+
+This process is based in affording trust to fellow developers. There is one obvious security hole
+here: that someone malicious becomes releaser, adds malicious code, and pushes it out. The Caretaker
+model is a _bet_ that our trust is warranted and that this failure scenario will not happen _enough_
+to warrant not giving strangers that trust in the first place.
+
+This is not a radical step: most projects routinely grant prolific or even just willing contributors
+more rights (fancy "member" hats, commit bits, release permissions), so a dedicated person can quite
+easily obtain rights on many projects simply by being helpful, and then turn around and wreak havoc.
+It happens. It just does not happen _enough_ to put everyone off.
+
+The Caretaker model formalises that process (to establish expectations and reduce frustration) and
+limits it to a very specific interaction with a clear, well-defined goal (to encourage participation)
+which has an evident and effective result benefitting both the releaser and the project (to make it
+appealing for everyone).
+
+To become a releaser under the Caretaker model, a person needs to file a [release proposal], which
+is described in the next section. Then, the project's **caretakers**, after reviewing and discussing
+and possibly asking for more or pushing back on the proposal, either deny or **approve** it, after
+which the person becomes a **releaser**, tasked with accomplishing what their proposal was about.
+They're given all the rights necessary for them to achieve that. When they're done, they relinquish
+those rights and walk away.
+
+
+[release proposal]: #release-proposals
 [release lifecycle]: #release-lifecycle
 [walkthrough]: #walkthrough
 [automation]: #automation
