@@ -260,10 +260,11 @@ voluntary, especially something this one.
 Detail on the actual duties of the role are in the [release proposals] and [release lifecycle]
 sections, alongside the corresponding responsibilities by releasers.
 
-Becoming a caretaker is a process left to the discretion of the project. A [template](/caretaker-request)
+Becoming a caretaker is a process left to the discretion of the project. A [template](/becoming-a-caretaker)
 for prospective caretakers is provided on this site, and if that works for the project no further
 action is required beyond considering these requests. Otherwise, add a section to your contributing
-guide (the template will point people there as a first step).
+guide (the website's action header as well as the template itself do instruct people to look there
+as a first step).
 
 [releaser role]: #releaser-role
 [release proposals]: #release-proposals
