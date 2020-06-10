@@ -29,6 +29,7 @@ a {
 	border-bottom: 0.2em solid;
 	font-weight: 500;
 	text-decoration: none;
+	hyphens: none;
 
 	&:hover {
 		color: var(--a-verso);
