@@ -254,9 +254,9 @@ the project in case you turn away from active duty on the project for whatever r
 
 It's important that people _consent_ to becoming caretakers, though, and it _should not_ be made a
 compulsory step in becoming a titled contributor or maintainer. Besides that this scales poorly,
-the requirements of being a caretakers may be taxing for some people, or in some situations. This
+the requirements of being a caretaker may be taxing for some people, or in some situations. This
 is open software and open development: most likely, you're all doing this for free. Let roles be
-voluntary, especially something this one.
+voluntary, especially this one.
 
 Detail on the actual duties of the role are in the [release proposals] and [release lifecycle]
 sections, alongside the corresponding responsibilities by releasers.
