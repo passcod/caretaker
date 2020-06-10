@@ -283,7 +283,7 @@ The other way in which it is special is _who_ can wear the role. Most roles get 
 by members of the project. The releaser role can be like that, but it also can be obtained by a
 non-member, someone just passing through, an "external contributor," via a formal process.
 
-The project temporarily gains a _transient_ member, there to do one thing and one thing only, until
+The project temporarily gains a temporary member, there to do one thing and one thing only, until
 that one thing is done, at which time they automatically leave the project again. Even while they're
 acting a releaser, they're not responsible for, not expected to do, and indeed expected _not to do_
 any other task or role covered by the rest of the project's members.
