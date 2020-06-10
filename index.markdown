@@ -1,6 +1,6 @@
 ---
 layout: home
-title: false
+title: ''
 ---
 
 ## Background
