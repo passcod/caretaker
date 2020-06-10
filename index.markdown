@@ -87,7 +87,7 @@ It is completely unsurprising that people burn out. That they have meltdowns. Th
 overwhelmed by what seems like simple, enthusiastic feedback. That some quit open work, or even tech
 or the internet entirely.
 
-**The Caretaker Model** is a re-organisation of the responsibilities and expectations in an open
+**The Caretaker Model** is a limited re-organisation of responsibilities and expectations in an open
 software project, specifically imagined to reduce burnout of maintainers as well as frustration of
 contributors and users.
 
