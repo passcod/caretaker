@@ -312,6 +312,7 @@ those rights and walk away.
 
 
 ## Release proposals
+[release proposals]: #release-proposals
 [release proposal]: #release-proposals
 
 
