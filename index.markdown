@@ -285,7 +285,7 @@ non-member, someone just passing through, an "external contributor," via a forma
 
 The project temporarily gains a temporary member, there to do one thing and one thing only, until
 that one thing is done, at which time they automatically leave the project again. Even while they're
-acting a releaser, they're not responsible for, not expected to do, and indeed expected _not to do_
+acting a releaser, they're not responsible for, not expected to do, and indeed expected _not to do_,
 any other task or role covered by the rest of the project's members.
 
 This process is based in affording trust to fellow developers. There is one obvious security hole
