@@ -321,6 +321,87 @@ those rights and walk away.
 [release proposals]: #release-proposals
 [release proposal]: #release-proposals
 
+A release proposal is a document put forward by someone who, by doing so, applies to the project to
+become a temporary releaser. It has several sections:
+
+1. The scope of the release.
+
+   This is the _exhaustive_ list of everything that will make it in the release. This may be as
+   simple as mentioning a single pull request, or as complex as putting forward an implementation
+   plan for an as-of-yet hypothetical feature. It is not limited to one item: merging all pending
+   pull requests is expected to be the most common proposal.
+
+   It is required that the proposal be _exhaustive_. A releaser _must not_ do more than what was
+   agreed on without the explicit, written, clearly amended onto the original proposal, approval of
+   a caretaker. A releaser _may_ do less than what the proposal stated, but that must also be
+   clearly indicated, to avoid assumptions being made and be clear about what remains to be done.
+
+2. The proposed version number of the release.
+
+3. The reasoning behind that version number.
+
+   This can be one sentence, such as "PR #123 is a new feature and contains no breaking changes."
+
+   This section serves to ensure both the applicant and the caretakers are on the same page, to
+   avoid assumptions or misunderstandings, and as an insight in the applicant’s thought process,
+   which might provide the opportunity for correction.
+
+   For example, a project may have deliberately excluded one part of its API from semver
+   consideration, and so when a release application for a pull request touching on that part comes
+   in with only a version bumping the major number, it could be rejected or commented against on
+   that basis. Yet the applicant may have considered this: "while {API} is not under semver, the PR
+   also makes a behaviour change to {other part of the project}, so the major needs breaking."
+
+   Reasoning about this also helps formulate the idea and goals of the release, and to work through
+   its contents. It is very well to say "I will merge #12 and #34" but adding "therefore a minor
+   version bump is required, as #12 is a feature and #34 a minor bugfix" requires having reviewed
+   and understood the implications of the merges.
+
+4. The timeline the applicant expects.
+
+   This is important to set expectations on both sides, and may include any or all of:
+
+   - How long the release work is expected to take. Both so other work can be organised, and so the
+	 process can be reasonably cancelled if the releaser vanishes for a longer period of time.
+
+   - How long the applicant will wait for a reply or approval, or after how much time they may
+	 consider their proposal stale and the project likely abandoned.
+
+   - Days on and off. For example, that the applicant will only work on this on Saturdays, or that
+	 they will be completely unavailable for two weeks starting three days from now (actual dates
+	 are recommended).
+
+   None of these are required, and the section may be skipped entirely. In the absence of specified
+   timings, defaults from the project or from the model (in this order) will be assumed to apply.
+
+5. Any agreements or statements needed to contribute work on the project, such as agreeing to
+   license work, relinquish or retain rights, etc, as required.
+
+Proposals should fit whatever template the project provides, if any, but otherwise there is no
+expectation on form nor style except that it must be comprehensible.
+
+Here is a casual sample release proposal for a fictitious project:
+
+```
+## Release proposal: 4.3.17
+
+Hi! I really need #123 to be released for my project [rotten elephants], and I have time this week
+(13 to 17 July) or the next (20 to 25 July) to get that done. The new version number would be 4.3.17
+as #123 is only a bugfix.
+```
+
+Here is the same release proposal, but a little more impersonal:
+
+```
+## Release proposal: 4.3.17
+
+- Scope: merge #123.
+- New version number: 4.3.17
+- Reasoning for the version: #123 fixes a bug, adds no new functionality, contains no breaking
+  change besides the fixing of the bug.
+- Timeline: available until 25 July, weekdays only.
+```
+
 
 [release lifecycle]: #release-lifecycle
 [walkthrough]: #walkthrough
