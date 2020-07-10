@@ -236,9 +236,10 @@ have, but critically, _they don't have to_ for the project to function.
 The point of the Caretaker model is to enable a way for the project to function when maintainers are
 mostly away. There is little need for external contributors to go through a release proposal and the
 entire process when the project's maintainer or team is active enough to pick up features and cut
-releases on their own. But when they're busy elsewhere, be that on other projects, life, or hard at
-work on tougher features such that they let the release-making fall by the wayside, the Caretaker
-model offers a low-cost (to them) way for the project to keep evolving.
+releases on their own (though the model _can_ be used then too, as a formal process). But when
+they're busy elsewhere, be that on other projects, life, or hard at work on tougher features such
+that they let the release-making fall by the wayside, the Caretaker model offers a low-cost (to the
+maintainers) way for the project to keep evolving.
 
 Additionally, if a user wants a feature _right now_ or a fix to be backported to an old version but
 the team doesn't have the time for that, the model allows for the user to get involved directly to
