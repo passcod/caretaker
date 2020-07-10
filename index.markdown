@@ -174,6 +174,11 @@ software project, and the processes these two roles support and require. It is i
 thus, to allow for the wide variety of project strategies and cultures that exist to use the model
 without compromising on their existing practices beyond what is needed for the model to work.
 
+The model can be applied fully, such that all release work is done along the caretaker-releaser
+interaction, or it can be applied partially, with maintainers exempt, or conditionally, as in the
+caretaker role only being useful when maintainers are not active on the project. All of these are
+valid uses, and the model attempts to be generic enough to support them.
+
 To avoid any confusion (not an exhaustive list):
 
 - It is not an all-encompassing developer management methodology like Agile or Shape Up.
