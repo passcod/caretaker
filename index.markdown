@@ -385,9 +385,10 @@ Here is a casual sample release proposal for a fictitious project:
 ```
 ## Release proposal: 4.3.17
 
-Hi! I really need #123 to be released for my project [rotten elephants], and I have time this week
-(13 to 17 July) or the next (20 to 25 July) to get that done. The new version number would be 4.3.17
-as #123 is only a bugfix.
+Hi! I really need #123 to be released for my project [rotten
+elephants], and I have time this week (13 to 17 July) or the
+next (20 to 25 July) to get that done. The new version
+number would be 4.3.17 as #123 is only a bugfix.
 ```
 
 Here is the same release proposal, but a little more impersonal:
@@ -397,8 +398,9 @@ Here is the same release proposal, but a little more impersonal:
 
 - Scope: merge #123.
 - New version number: 4.3.17
-- Reasoning for the version: #123 fixes a bug, adds no new functionality, contains no breaking
-  change besides the fixing of the bug.
+- Reasoning for the version: #123 fixes a bug, adds no new
+  functionality, contains no breaking change besides the
+  fixing of the bug.
 - Timeline: available until 25 July, weekdays only.
 ```
 
