@@ -404,8 +404,15 @@ Here is the same release proposal, but a little more impersonal:
 - Timeline: available until 25 July, weekdays only.
 ```
 
+If an incomplete proposal is submitted, caretakers have the right to ignore it, but it's recommended to gently encourage completion instead, if possible or when time allows.
 
+
+## Release lifecycle
 [release lifecycle]: #release-lifecycle
+
+
+
+
 [walkthrough]: #walkthrough
 [automation]: #automation
 [failure and recovery]: #failure-and-recovery
