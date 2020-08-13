@@ -322,12 +322,9 @@ main {
 	}
 
 	pre {
+		max-width: 85vw;
+		overflow-x: auto;
 		font-size: 0.7em;
-
-		@media (max-width: 399.99px) {
-			width: 90vw;
-			overflow-x: scroll;
-		}
 
 		@media (min-width: 500px) and (max-width: 749.99px) {
 			font-size: 0.8em;
