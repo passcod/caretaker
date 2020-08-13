@@ -320,4 +320,41 @@ main {
 		background: url(/assets/img/cairn.png) center no-repeat;
 		background-size: auto 100%;
 	}
+
+	pre {
+		font-size: 0.7em;
+
+		@media (max-width: 399.99px) {
+			width: 90vw;
+			overflow-x: scroll;
+		}
+
+		@media (min-width: 500px) and (max-width: 749.99px) {
+			font-size: 0.8em;
+		}
+
+		@media (min-width: 750px) {
+			font-size: 1em;
+		}
+	}
+
+	img {
+		width: 100%;
+
+		&[alt^="Horizontal"] { display: none; }
+
+		@media (min-width: 750px) {
+			&[alt^="Horizontal"] { display: block; }
+			&[alt^="Vertical"] { display: none; }
+		}
+
+		@media (min-width: 750px) {
+			width: 130%;
+			margin-left: -30%;
+		}
+
+		@media (min-width: 1000px) {
+			width: 160%;
+		}
+	}
 }

@@ -410,7 +410,8 @@ If an incomplete proposal is submitted, caretakers have the right to ignore it, 
 ## Release lifecycle
 [release lifecycle]: #release-lifecycle
 
-[![Diagram of the release lifecycle flows, as explained below](/assets/img/release-lifecycle.svg)](/assets/img/release-lifecycle.svg)
+![Horizontal diagram of the release lifecycle flows, as explained below](/assets/img/release-lifecycle.svg)
+![Vertical diagram of the release lifecycle flows, as explained below](/assets/img/release-lifecycle-vertical.svg)
 
 
 [walkthrough]: #walkthrough
