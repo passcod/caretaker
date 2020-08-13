@@ -1,0 +1,6 @@
+[Proposal{bg:white}]->[Approved{bg:green}]->[Rights granted{bg:cyan}]->[*Work on release*|Merge PRs...|Fix issues...|Run tests...|Write docs...|Amend changelog...|...everything else...]->[Publish release]->[Post release testing]->[Relinquish rights{bg:cyan}]->[Done{bg:white}]
+[Proposal]-feedback and changes>[Proposal]
+[Proposal]-after two weeks>[Timeout{bg:yellow}]->[Closed{bg:white}]
+[Proposal]->[Denied{bg:red}]->[Closed{bg:white}]
+[*Work on release*]->[Abandon{bg:orange}]->[Revert (optional)]->[Relinquish rights{bg:cyan}]
+[*Work on release*]->[Caught malicious activity{bg:red}]->[Rights removed{bg:purple}]->[Banned{bg:white}]-.-[Listed{bg:white}]
