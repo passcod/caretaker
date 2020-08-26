@@ -423,6 +423,57 @@ to gently encourage completion instead, if possible or when time allows.
 ![Horizontal diagram of the release lifecycle flows, as explained below](/assets/img/release-lifecycle.svg)
 ![Vertical diagram of the release lifecycle flows, as explained below](/assets/img/release-lifecycle-vertical.svg)
 
+### In short
+
+The happy path: a proposal is submitted, a caretaker approves it, rights are granted to the
+newly-minter releaser, they do the release work, publish it, ideally do some post-release testing,
+voluntarily relinquish their rights, and are done.
+
+A proposal can garner feedback, corrections, and go through several revisions before being approved.
+It can at any point be denied, and there is no codified appeals process: that's up to the project.
+If two weeks pass without interaction from either side, the proposal times out, and is considered
+closed.
+
+At any point after being granted rights, a releaser can abandon, for whatever reason. It is good
+etiquette to revert the changes, if possible, or to coordinate with project members about it, but it
+is not required. The abandoning releaser relinquishes their rights, and leaves. This may also happen
+by default if the releaser goes AWOL.
+
+If a releaser is caught performing maliciously during their role, their rights should be immediately
+stripped. The action should likely incur a ban/block, though that is left to the discretion of the
+project. For serious offenders, there is the option to add the person to a public list as a warning
+for other projects not to accept their proposals.
+
+If the malicious activity is caught post-relinquish (or long after they're gone), the project should
+notify their users and resolve any breach or issue as per their own procedures or best practices,
+and may also want to ban/block and list the offender. The project may also want to review their use
+of the Caretaker system at that point.
+
+### The proposal stage
+
+//
+
+### Granting rights
+
+//
+
+### Working as a releaser
+
+//
+
+### Abandoning or giving up
+
+//
+
+### Malicious activity
+
+//
+
+### The end stages
+
+//
+
+
 
 [walkthrough]: #walkthrough
 [automation]: #automation
