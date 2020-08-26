@@ -477,6 +477,6 @@ of the Caretaker system at that point.
 
 [walkthrough]: #walkthrough
 [automation]: #automation
-[failure and recovery]: #failure-and-recovery
+[failure and recovery]: #release-requests
 [scaling up]: #scaling-up
 [meta]: #meta
