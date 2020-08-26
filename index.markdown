@@ -45,16 +45,16 @@ and supporting.
 	partners taking care of children and housework while one's working, family, friends, and close
 	colleagues providing companionship, wisdom, and safety.
 
-In small to medium open software projects, the traditional way work is organised is stratified
-between three main roles: Maintainers or Owners, Contributors, and Everyone Else.
+In many open software projects, work is stratified between three main buckets of people:
+Maintainers, Contributors, and Everyone Else.
 
-I want to emphasise that there are no codified rules, no formal document laying out the “traditional”
-way open projects function. What I describe as such is informal etiquette and culture, and by very
-nature, is subjective to how I see and have experienced it. That said, _some_ of that way _is_
-codified, through the tools we use: GitHub and GitLab both more or less tacitly encode many aspects,
-as two prominent examples.
+I want to emphasise that there are no codified rules, no formal document laying out the
+“traditional” way open projects function. What I describe as such is informal etiquette and culture,
+and by very nature, is subjective to how I see and have experienced it. That said, _some_ of that
+way _is_ codified, through the tools we use: GitHub and GitLab both more or less tacitly encode many
+of these aspects.
 
-With this caveat out of the way, in the traditional way:
+With this disclaimer out of the way, in the traditional way:
 
 - **Owners** or **Maintainers** drive the project. They are responsible for the project itself,
 	for making releases, for keeping the code up to standard, for fixing urgent bugs, for
@@ -87,9 +87,10 @@ It is completely unsurprising that people burn out. That they have meltdowns. Th
 overwhelmed by what seems like simple, enthusiastic feedback. That some quit open work, or even tech
 or the internet entirely.
 
-**The Caretaker System** is a systematised process for open software projects, which sits on top or
-alongside the project’s usual systems (it doesn’t replace or override others), designed to reduce
-burnout of maintainers as well as frustration of contributors and users.
+**The Caretaker System** is a restrained set of codified processes for open software projects, sat
+on top or alongside usual systems (they don’t replace or override others), designed to ease the life
+of maintainers with little time to consecrate or motivation to spend, while encouraging
+contributions to low-activity projects.
 
 
 ## Introduction
@@ -103,9 +104,9 @@ This comes from boiling down the effective motivation of most people interested 
 - Reporters want the features they ask for implemented, the bugs they file fixed, etc.
 - Submitters want to have their work merged and used (and useful).
 
-The way the software is consumed is via releases. In between releases, the software may be unstable
-or incomplete. This is true regardless of the development methodology: even if you have a policy
-that "the main branch always builds", that might means is that commits on that main branch may be
+The way software is consumed is via releases. In between releases, the software may be unstable or
+incomplete. This is true regardless of the development methodology: even if you have a policy that
+"the main branch always builds", that might means is that commits on that main branch may be
 releases, albeit informally so. And even if the build passes, other aspects may not be ready.
 
 Internally to the project, there is a lot of work left beyond contributions to get to a releasable

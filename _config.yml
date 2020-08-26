@@ -7,8 +7,8 @@ email: felix@passcod.name
 version: "0.1"
 description: ""
 seo_description: >-
-    An open software contribution system addon that allows projects to survive and grow
-    when it otherwise would have died or sapped motivation and will from its maintainers.
+    A “contribution system addon” for open software projects to ease maintainer burden and encourage
+    contributions even at low activity levels.
 
 baseurl: ""
 url: "https://caretaker.passcod.name"
