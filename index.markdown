@@ -87,17 +87,17 @@ It is completely unsurprising that people burn out. That they have meltdowns. Th
 overwhelmed by what seems like simple, enthusiastic feedback. That some quit open work, or even tech
 or the internet entirely.
 
-**The Caretaker Model** is a limited re-organisation of responsibilities and expectations in an open
-software project, specifically imagined to reduce burnout of maintainers as well as frustration of
-contributors and users.
+**The Caretaker System** is a systematised process for open software projects, which sits on top or
+alongside the project’s usual systems (it doesn’t replace or override others), designed to reduce
+burnout of maintainers as well as frustration of contributors and users.
 
 
 ## Introduction
 [introduction]: #introduction
 
-The model is built around the concept of _releases_.
+The system is focused around the concept of _releases_.
 
-This comes from what the motivation of each external person interested in the work boils down to:
+This comes from boiling down the effective motivation of most people interested in the work:
 
 - Users want the software to be usable and have the features they want.
 - Reporters want the features they ask for implemented, the bugs they file fixed, etc.
@@ -105,7 +105,7 @@ This comes from what the motivation of each external person interested in the wo
 
 The way the software is consumed is via releases. In between releases, the software may be unstable
 or incomplete. This is true regardless of the development methodology: even if you have a policy
-that "the main branch always builds", what that means is that commits on that main branch may be
+that "the main branch always builds", that might means is that commits on that main branch may be
 releases, albeit informally so. And even if the build passes, other aspects may not be ready.
 
 Internally to the project, there is a lot of work left beyond contributions to get to a releasable
@@ -159,9 +159,9 @@ grow. Thus, a caretaker's mandatory duties are kept light, such that even someon
 little time can achieve them.
 
 The rest of this document delves deeper into how release proposals work, the lifecycle of a release
-from the perspective of the model, the duties and expectations placed upon both caretakers and
-releasers, how to become a caretaker, discussions about audience (who should _not_ use the model),
-scope (what the model _doesn't_ cover), scaling up, normal and failure scenarios, and automation.
+under the Caretaker system, the duties and expectations placed upon both caretakers and releasers,
+how to become a caretaker, discussions about audience (which projects should _not_ use this system),
+scope (what the system _doesn't_ cover), scaling up, normal and failure scenarios, and automation.
 
 --------------------------------------------------
 
@@ -169,15 +169,15 @@ scope (what the model _doesn't_ cover), scaling up, normal and failure scenarios
 ## Scope
 [scope]: #scope
 
-The Caretaker model's scope only extends to codifying two new roles in the management of an open
+The Caretaker system's scope only extends to codifying two new roles in the management of an open
 software project, and the processes these two roles support and require. It is intentionally limited
-thus, to allow for the wide variety of project strategies and cultures that exist to use the model
-without compromising on their existing practices beyond what is needed for the model to work.
+thus, to allow for the wide variety of project strategies and cultures that exist to use the system
+without compromising on their existing practices beyond what is needed for the system to work.
 
-The model can be applied fully, such that all release work is done along the caretaker-releaser
-interaction, or it can be applied partially, with maintainers exempt, or conditionally, as in the
+The system can be mandated or applied fully, such that all release work is done along the
+caretaker-releaser interaction, or partially, with maintainers exempt, or conditionally, as in the
 caretaker role only being useful when maintainers are not active on the project. All of these are
-valid uses, and the model attempts to be generic enough to support them.
+valid uses, and the system attempts to be generic enough to support them.
 
 To avoid any confusion (not an exhaustive list):
 
@@ -190,59 +190,67 @@ To avoid any confusion (not an exhaustive list):
 
 Additionally, anything written in this document can be overriden, added on to, or discarded by a
 project's own rules. (If sufficient differences occur, it is encouraged that the project instead
-codifies their own model and doesn't use the “Caretaker” name, to avoid confusion. See also the
+codifies their own system and doesn't use the “Caretaker” name, to avoid confusion. See also the
 [meta] section.)
 
 ## Audience
 [audience]: #audience
 
-From the onset, the Caretaker model positions itself as being for "small to medium" projects.
+From the onset, the Caretaker system positions itself as being for “small” projects.
 
-There is no defined upper bound on "how large" a project can be before it stops being appropriate to
-use the model: besides the difficulty of measuring "largeness" of a project in discrete terms, the
-decision to leave Caretaker behind or adapt it for large-scale use must be made by the project
-itself, for its own well-being, and to achieve its own goals.
+This requires a definition of what “small” refers to here.
 
-There is however a lower bound, which is "one": a project _must_ have at least _one_ **caretaker**
-who responds to requests for the model to work. If the project is abandoned, or if none of the
-established caretakers respond to and act on requests (within reasonable time), then the model by
-definition cannot work.
+When talking about project size, there are many dimensions which could be measured, such as project
+scope, team size, community size, userbase, number of stars on github, lines of code, how much
+people talk about it on social media, etc. What Caretaker is concerned with is **the amount of time
+that is allocated to the project on a regular basis** by its “permanent” members (maintainers, core
+contributors).
 
-Beyond size, there are other reasons why the model may be unsuitable for a project:
+There is no defined upper or lower bounds on “how large” a project can be before it stops being
+appropriate to use the system: the decision to leave it behind or adapt it for large-scale use must
+be made by the project itself, for its own well-being, and to achieve its own goals. Note that
+Caretaker can remain dormant while a project is more active, and reactivate once or if activity
+decreases beyond a certain point, acting as a “failsafe.”
+
+However, a project must have at least _one_ **caretaker** who responds to requests for the system to
+work. If the project is abandoned, or if none of the established caretakers respond to and act on
+requests (within reasonable time), then it by definition cannot work.
+
+Beyond size, there are other reasons why the system may be unsuitable for a project:
 
 - If a large degree of control over the project, its direction, implementation, copyright and legal
 	status, or some other such is required. Caretaker requires trusting potentially any random
 	stranger to _release live software to the world_. If that is antithetical to your project or
-	philosophies there's no adaptation that will make it work: do no use it.
+	philosophies there's no adaptation that will make it work: do not use it.
 
 - If the project is security-critical, or used by a large amount of people, devices, companies...
-	then, for the same reasons of trust, the model is inappropriate and should not be used.
+	then, for the same reasons of trust, the system is likely inappropriate and should not be used.
 
-- If the project is backed by or directly developed by a company, the model is likely untenable.
+- If the project is backed by or directly developed by a company, the system is likely untenable.
 
-There may be other reasons not stated here: the model makes no claim of universality. Use it if, and
+There may be other reasons not stated here: Caretaker makes no claim of universality. Use it if, and
 only as long as, it fits.
 
 
 ## The caretaker role
 [caretaker role]: #the-caretaker-role
 
-At the core of the Caretaker model is the eponymous **caretaker** _role_.
+At the core of the Caretaker system is the eponymous **caretaker** _role_.
 
-The role's sole responsibility is to facilitate the model's release process. In practice, caretakers
+The role's sole responsibility is to facilitate the system's release process. In practice, caretakers
 will likely also be maintainers, leaders, triagers, or any of the various other roles that projects
 have, but critically, _they don't have to_ for the project to function.
 
-The point of the Caretaker model is to enable a way for the project to function when maintainers are
-mostly away. There is little need for external contributors to go through a release proposal and the
-entire process when the project's maintainer or team is active enough to pick up features and cut
-releases on their own (though the model _can_ be used then too, as a formal process). But when
+The point of the Caretaker system is to enable a way for the project to function when maintainers
+are mostly away. There is little need for external contributors to go through a release proposal and
+the entire process when the project's maintainer or team is active enough to pick up features and
+cut releases on their own (though the system _can_ be used then too, as a formal process). But when
 they're busy elsewhere, be that on other projects, life, or hard at work on tougher features such
-that they let the release-making fall by the wayside, the Caretaker model offers a low-cost (to the
+that they let the release-making fall by the wayside, the Caretaker system offers a low-cost (to the
 maintainers) way for the project to keep evolving.
 
 Additionally, if a user wants a feature _right now_ or a fix to be backported to an old version but
-the team doesn't have the time for that, the model allows for the user to get involved directly to
+the team doesn't have the time for that, the system allows for the user to get involved directly to
 achieve their goal.
 
 A caretaker acts as a guide for prospective releasers submitting a proposal, a gatekeeper in only
@@ -277,13 +285,12 @@ as a first step).
 ## The releaser role
 [releaser role]: #the-releaser-role
 
-While the caretaker role is the core of the model, **releasers** do the bulk of the work (in regard
-to what the model deals with).
+While the caretaker role is the core of the system, **releasers** do the bulk of its work.
 
-Releasers... _release_. But before they get to the releasing, they also have to become a releaser.
+Releasers... _release_. But before they get to the releasing, they have to become a releaser.
 
 The **releaser _role_** is special in that it is _transient_: it only exists for the purpose of
-releasing a single release. When that one release is done, the role dismisses itself.
+releasing a single release. When that one release is done, the role dissolves.
 
 The other way in which it is special is _who_ can wear the role. Most roles get assigned to or taken
 by members of the project. The releaser role can be like that, but it also can be obtained by a
@@ -296,20 +303,21 @@ any other task or role covered by the rest of the project's members.
 
 This process is based in affording trust to fellow developers. There is one obvious security hole
 here: that someone malicious becomes releaser, adds malicious code, and pushes it out. The Caretaker
-model is a _bet_ that our trust is warranted and that this failure scenario will not happen _enough_
-to warrant not giving strangers that trust in the first place.
+system is a _bet_ that our trust is warranted and that this failure scenario will not happen _enough_
+to warrant not giving strangers that trust in the first place. (Nevertheless, there are defined
+processes for dealing with breaches of this trust.)
 
 This is not a radical step: most projects routinely grant prolific or even just willing contributors
-more rights (fancy "member" hats, commit bits, release permissions), so a dedicated person can quite
+more rights (fancy “member” hats, commit bits, release permissions), so a dedicated person can quite
 easily obtain rights on many projects simply by being helpful, and then turn around and wreak havoc.
 It happens. It just does not happen _enough_ to put everyone off.
 
-The Caretaker model formalises that process (to establish expectations and reduce frustration) and
+The Caretaker system formalises that process (to establish expectations and reduce frustration) and
 limits it to a very specific interaction with a clear, well-defined goal (to encourage participation)
 which has an evident and effective result benefitting both the releaser and the project (to make it
 appealing for everyone).
 
-To become a releaser under the Caretaker model, a person needs to file a [release proposal], which
+To become a releaser under the Caretaker system, a person needs to file a [release proposal], which
 is described in the next section. Then, the project's **caretakers**, after reviewing and discussing
 and possibly asking for more or pushing back on the proposal, either deny or **approve** it, after
 which the person becomes a **releaser**, tasked with accomplishing what their proposal was about.
@@ -372,7 +380,7 @@ become a temporary releaser. It has several sections:
 	 are recommended).
 
    None of these are required, and the section may be skipped entirely. In the absence of specified
-   timings, defaults from the project or from the model (in this order) will be assumed to apply.
+   timings, defaults from the project or from the system (in this order) will be assumed to apply.
 
 5. Any agreements or statements needed to contribute work on the project, such as agreeing to
    license work, relinquish or retain rights, etc, as required.
@@ -404,7 +412,8 @@ Here is the same release proposal, but a little more impersonal:
 - Timeline: available until 25 July, weekdays only.
 ```
 
-If an incomplete proposal is submitted, caretakers have the right to ignore it, but it's recommended to gently encourage completion instead, if possible or when time allows.
+If an incomplete proposal is submitted, caretakers have the right to ignore it, but it's recommended
+to gently encourage completion instead, if possible or when time allows.
 
 
 ## Release lifecycle
