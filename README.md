@@ -1,4 +1,8 @@
-# The Caretaker System
+Caretaker has been revamped into a single-page file: https://gist.github.com/passcod/7332390db1813f9bccb07e5cf3a9649b
+
+Eventually I do intend to remix the contents of this repo into a "caretaker manifesto / discussion / essay" or whatever, but for now please disregard.
+
+# ~~The Caretaker System~~
 
 <sup>Version 0.1 — 2020</sup>
 
